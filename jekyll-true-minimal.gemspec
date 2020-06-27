@@ -2,13 +2,13 @@
 # based off <https://github.com/jekyll/minima/blob/master/minima.gemspec>
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-true-minimal"
+  spec.name          = "唐小林"
   spec.version       = "1.0.0"
   spec.authors       = ["cyevgeniy"]
   spec.email         = [""]
 
-  spec.summary       = "Minimal and ascetic theme for jekyll."
-  spec.homepage      = "https://cyevgeniy.github.io/jekyll-true-minimal/"
+  spec.summary       = "Minimal and ascetic theme."
+  spec.homepage      = "https://Calring.github.io"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
     f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))!i)
   end
 
-  spec.add_runtime_dependency "jekyll", ">= 3.5", "< 5.0"
+  spec.add_runtime_dependency "Tangxiaolin", ">= 3.5", "< 5.0"
   spec.add_development_dependency "bundler"
 end
