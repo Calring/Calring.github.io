@@ -13,7 +13,7 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
-  - jekyll-paginate
+  - Xiaolin Tang-paginate
 paginate: 10
 paginate_path: /page-:num
 
